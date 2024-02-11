@@ -1,0 +1,6 @@
+a= ("abc", 567, "python", "try", 87)
+print("The Tuple:",a)
+b=list(a)
+a=reversed(b)
+a=tuple(a)
+print("Tuple in reversed order:",a)
